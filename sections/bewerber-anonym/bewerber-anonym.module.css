@@ -1,0 +1,23 @@
+.anonym {
+	height: 550px;
+	background: url(../../assets/secret_2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+  background-attachment: fixed;
+}
+.container {
+	padding: 200px 42.5px 0 42.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.heading {
+	text-align: center;
+}
+.description {
+	margin-top: var(--spacer-xl);
+	color: var(--primary-text);
+	text-align: center;
+	max-width: 800px;
+}

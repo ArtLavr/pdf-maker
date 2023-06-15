@@ -1,0 +1,98 @@
+.container {
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+.sticky {
+	background: rgba(26, 26, 26, 0.9);
+	transition: all 0.2s;
+}
+.sticky .wrapper {
+	padding-top: var(--spacer-s);
+	padding-bottom: var(--spacer-s);
+}
+.wrapper {
+	transition: all 0.2s;
+	padding: 20px 42.5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	height: 35px;
+}
+.list {
+	display: flex;
+	gap: var(--spacer-3xl);
+}
+.list li {
+	font-size: 16px;
+	color: var(--primary-text);
+	transition: all 0.2s;
+	cursor: pointer;
+}
+.list li:hover,
+.mobileList li:hover {
+	color: var(--additional-text-on-hover);
+}
+.mobileContainer {
+	display: none;
+}
+.mobileList {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	margin-top: -100vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	gap: 30px;
+	background: var(--modal-background);
+	transition: all 0.2s;
+	justify-content: center;
+	align-items: center;
+}
+.mobileList li {
+	font-size: 32px;
+	color: var(--primary-text);
+	transition: all 0.2s;
+}
+.burgerIcon {
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.closeIcon {
+	position: absolute;
+	top: var(--spacer-l);
+	right: var(--spacer-xl);
+	cursor: pointer;
+}
+.mobileList.active {
+	margin-top: 0;
+}
+.burgerIcon:hover {
+	color: var(--additional-text-on-hover);
+}
+@media (max-width: 1900px) {
+	.navBar {
+		display: none;
+	}
+	.mobileContainer {
+		display: block;
+	}
+}
+@keyframes move-logo {
+	0% {
+		transform: translateX(-40px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

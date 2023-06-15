@@ -1,0 +1,10 @@
+.anders {
+	background: linear-gradient(to right, rgba(50, 53, 53, 0.47), rgba(50, 53, 53, 0.47)),
+		url(../../assets/anders.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: 50%;
+}
+.container {
+	padding: 200px 42.5px 0 42.5px;
+}

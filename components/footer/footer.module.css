@@ -1,0 +1,48 @@
+.footer {
+	background: var(--footer);
+  overflow: hidden;
+}
+.container {
+  position: relative;
+  padding: 10vmax 42.5px;
+	display: flex;
+	gap: 200px;
+}
+.footer h3 {
+	color: var(--additional-text);
+	font-weight: 600;
+	line-height: 30px;
+	font-size: 17px;
+}
+.footer span,
+.footer li {
+	color: var(--primary-text);
+	font-weight: 400;
+	line-height: 30px;
+	font-size: 17px;
+}
+.footer li:hover {
+	color: var(--additional-text-on-hover);
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xl);
+}
+.contactInfo {
+	display: flex;
+	flex-direction: column;
+}
+.hannover > div {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xs);
+}
+.image {
+	width: 330px;
+	height: 300px;
+	position: absolute;
+	right: 5vmax;
+  bottom: -100px;
+  overflow: hidden;
+}

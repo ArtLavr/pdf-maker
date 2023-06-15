@@ -1,0 +1,42 @@
+.description {
+	background: rgb(50, 53, 53);
+	position: relative;
+}
+.container {
+	padding: 200px 42.5px;
+	height: 800px;
+	width: 100%;
+}
+.subContainer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xxl);
+	padding-right: var(--spacer-xl);
+	width: 50%;
+}
+.image {
+	position: absolute;
+	right: 0;
+	max-width: 50%;
+	height: 800px;
+	object-fit: cover;
+	bottom: 0;
+}
+@media (max-width: 1000px) {
+	.container {
+		margin: 0;
+		padding: 100px 42.5px;
+		height: auto;
+	}
+	.subContainer {
+		width: 100%;
+	}
+	.description {
+		flex-direction: column;
+	}
+	.image {
+		position: static;
+		height: 400;
+		max-width: 100%;
+	}
+}

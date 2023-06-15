@@ -1,0 +1,50 @@
+.toolbox {
+	position: relative;
+}
+.container {
+	padding: 100px 42.5px;
+	height: 700px;
+	width: 100%;
+}
+.subContainer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xxl);
+	padding-right: var(--spacer-xl);
+	width: 50%;
+}
+.heading,
+.description {
+	color: var(--secondary-text);
+}
+.description {
+	margin-top: var(--spacer-xl);
+}
+.description strong {
+	color: var(--additional-text);
+}
+.image {
+	position: absolute;
+	right: 0;
+	max-width: 50%;
+	height: 700px;
+	object-fit: cover;
+	bottom: 0;
+}
+@media (max-width: 1000px) {
+	.container {
+		margin: 0;
+		height: auto;
+	}
+	.subContainer {
+		width: 100%;
+	}
+	.description {
+		flex-direction: column;
+	}
+	.image {
+		position: static;
+		height: 350px;
+		max-width: 100%;
+	}
+}

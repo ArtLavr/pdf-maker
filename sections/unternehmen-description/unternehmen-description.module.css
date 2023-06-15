@@ -1,0 +1,14 @@
+.description {
+	background-image: url(../../assets/treffer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	padding: 200px 42.5px;
+}
+.subContainer {
+	gap: var(--spacer-3xl);
+	display: flex;
+	flex-direction: column;
+	max-width: 60%;
+}

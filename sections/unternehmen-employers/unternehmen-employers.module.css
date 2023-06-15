@@ -1,0 +1,12 @@
+.description {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+		url(../../assets/people.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	padding: 200px 42.5px;
+	gap: var(--spacer-3xl);
+	display: flex;
+	justify-content: center;
+}

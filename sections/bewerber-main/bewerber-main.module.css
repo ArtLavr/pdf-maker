@@ -1,0 +1,31 @@
+.bewerber {
+	background: linear-gradient(to right, rgba(50, 53, 53, 0.47), rgba(50, 53, 53, 0.47)),
+		url(../../assets/held.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+}
+.container {
+	padding: 20vmax 42.5px 10vmax 42.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: var(--spacer-xl);
+}
+.image {
+	width: 300px;
+	height: fit-content;
+}
+.heading {
+	line-height: 1;
+	color: var(--primary-text);
+	text-align: end;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 74px;
+}
+.buttonContainer {
+	display: flex;
+	gap: var(--spacer-xl);
+}

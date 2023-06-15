@@ -1,0 +1,23 @@
+.modal {
+	padding: 40px 60px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	margin-top: 150px;
+	width: 500px;
+	height: 300px;
+	background: white;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+}
+.buttonContainer {
+	display: flex;
+	gap: 40px;
+}

@@ -1,0 +1,11 @@
+.imagePeople {
+	width: 100%;
+	height: fit-content;
+}
+.imageWorks {
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../../assets/works.jpg);
+	background-position: 50% 59.2498px;
+}

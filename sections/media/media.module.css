@@ -1,0 +1,28 @@
+.media {
+	background: linear-gradient(to right, rgba(50, 53, 53, 0.47), rgba(50, 53, 53, 0.47)),
+		url(../../assets/vision.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+}
+.container {
+	padding: 15vmax 42.5px 10vmax 42.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--spacer-xl);
+}
+.image {
+	width: 300px;
+	height: fit-content;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.heading {
+	text-align: end;
+}
+.buttonContainer {
+	display: flex;
+	gap: var(--spacer-xl);
+}

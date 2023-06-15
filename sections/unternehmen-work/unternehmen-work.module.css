@@ -1,0 +1,46 @@
+.work {
+	background: linear-gradient(to right, rgba(49, 50, 51, 0.8), rgba(49, 50, 51, 0.8)),
+		url(../../assets/zusammen.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	display: flex;
+	padding: 100px 42.5px;
+	align-items: center;
+}
+.imageContainer {
+	width: 200px;
+	height: 200px;
+	margin-right: 100px;
+}
+.heading {
+	font-weight: 900;
+	text-align: left;
+	font-size: 42px;
+}
+.image {
+	width: 100%;
+	height: 100%;
+}
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xl);
+}
+@media (max-width: 1000px) {
+	.container {
+		flex-direction: column;
+	}
+	.imageContainer {
+		margin-right: 0;
+	}
+	.infoContainer {
+		margin-top: var(--spacer-xl);
+		max-width: 100%;
+	}
+	.infoContainer h2,
+	.infoContainer p {
+		text-align: center;
+	}
+}

@@ -1,0 +1,57 @@
+.unternehmen {
+	display: flex;
+	position: relative;
+}
+.container {
+	padding: 200px 42.5px;
+
+	height: 700px;
+	width: 100%;
+}
+.subContainer {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacer-xxl);
+	width: 50%;
+	margin-left: auto;
+	padding-left: var(--spacer-xxl);
+}
+.subHeading {
+	color: var(--additional-text);
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 1.4;
+}
+.heading {
+	color: var(--secondary-text);
+	font-weight: 700;
+	font-size: 4rem;
+	line-height: 1;
+}
+.image {
+	position: absolute;
+	left: 0;
+	max-width: 50%;
+	height: 700px;
+	object-fit: cover;
+}
+@media (max-width: 1000px) {
+	.container {
+		margin: 0;
+		padding: 100px 42.5px;
+		height: auto;
+	}
+  .subContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+	.unternehmen {
+		flex-direction: column-reverse;
+	}
+	.image {
+		position: static;
+		height: 350px;
+		max-width: 100%;
+	}
+}

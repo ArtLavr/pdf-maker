@@ -1,0 +1,12 @@
+.contact {
+	background-image: url(../../assets/rocket_start.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+  background-position: center;
+}
+.container {
+	padding: 200px 42.5px;
+	gap: var(--spacer-3xl);
+	display: flex;
+  flex-direction: column;
+}

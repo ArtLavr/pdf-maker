@@ -1,0 +1,70 @@
+.start {
+	padding-top: 10vmax;
+	background: var(--primary-background);
+	padding: 200px 0;
+}
+.container {
+	padding: 0 42.5px;
+	display: flex;
+	gap: var(--spacer-xxl);
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	width: 67%;
+	gap: var(--spacer-xxl);
+}
+.heading {
+	color: var(--primary-text);
+	font-weight: 700;
+	font-size: 4rem;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+.subHeading {
+	color: var(--primary-text);
+	font-weight: 500;
+	font-size: 1.8rem;
+}
+.description {
+	color: var(--primary-text);
+	font-weight: 400;
+	line-height: 30px;
+}
+.handsImageContainer {
+	max-width: 33%;
+	height: auto;
+	object-fit: contain;
+}
+.handsImage {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.linkContainer {
+	display: flex;
+	flex-direction: column;
+}
+.link {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--primary-text);
+	display: flex;
+	align-items: center;
+}
+.link:hover {
+	color: var(--link-on-hover);
+	transition: all 0.2s;
+}
+.linkIcon {
+	color: #ffa100;
+}
+@media (max-width: 1000px) {
+	.info {
+		width: 100%;
+	}
+	.handsImage {
+		display: none;
+	}
+}

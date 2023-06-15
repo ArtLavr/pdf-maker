@@ -1,0 +1,26 @@
+.unternehmen {
+	background: linear-gradient(to right, rgba(50, 53, 53, 0.47), rgba(50, 53, 53, 0.47)),
+		url(../../assets/business_title.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	height: 100vh;
+}
+.container {
+	padding: 20vmax 42.5px 10vmax 42.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: var(--spacer-xl);
+}
+.image {
+	width: 300px;
+	height: fit-content;
+}
+.heading {
+	text-align: end;
+}
+.buttonContainer {
+	display: flex;
+	gap: var(--spacer-xl);
+}

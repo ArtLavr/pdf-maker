@@ -1,0 +1,18 @@
+.contact {
+	height: 900px;
+	background: linear-gradient(to right, rgba(50, 53, 53, 0.47), rgba(50, 53, 53, 0.47)),
+		url(../../assets/ready.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+.container {
+	padding: 400px 42.5px 0 42.5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--spacer-xxl);
+}
+.heading {
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+.svgIcon {
+	display: inline-flex;
+	height: 1em;
+	width: 1em;
+}
+.svgIcon svg {
+	display: block;
+	fill: currentColor;
+	height: 100%;
+	width: 100%;
+}
